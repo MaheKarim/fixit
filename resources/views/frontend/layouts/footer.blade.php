@@ -121,7 +121,7 @@
             <div class="col-md-12">
                 <div class="footer-bottom">
                     <div class="copyright-text pull-left">
-                        <p>Copyrights © 2017 All Rights Reserved by <a href="#">ThemeKalia.</a></p>
+                        <p>Copyright © {{ now()->year }} All Rights Reserved by <a href="{{ url('/') }}">{{ config('app.name') }}.</a></p>
                     </div>
                     <div class="payment-method pull-right">
                         <ul>
