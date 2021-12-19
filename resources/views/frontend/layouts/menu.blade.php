@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-lg-6 col-md-5 col-sm-12 col-xs-12">
                 <div class="welcome">
-                    <p>Welcome to Repairplus Experts, Theme for Repair Shops</p>
+                    <p>Welcome to {{ config('app.name') }} Experts</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12">
@@ -12,23 +12,11 @@
                     <div class="select-items clearfix">
                         <div class="single-select-item extras">
                             <select name="extra" class="selectpicker">
-                                <option>Extras</option>
-                                <option>Extras 1</option>
-                                <option>Extras 2</option>
-                                <option>Extras 3</option>
+                                <option>Authentication</option>
+                                <option>Login</option>
+                                <option>Registration</option>
                             </select>
                         </div>
-                        <div class="single-select-item">
-                            <select name="info" class="selectpicker">
-                                <option>Informations</option>
-                                <option>Informations 1</option>
-                                <option>Informations 2</option>
-                                <option>Informations 3</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="rate">
-                        <h6>Repair Rates</h6>
                     </div>
                 </div>
             </div>
